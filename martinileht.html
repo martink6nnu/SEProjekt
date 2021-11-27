@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 <div class="row">
-    <img src="pildid/miaula1.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula2.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula3.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula4.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula5.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula6.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula7.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula8.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula9.jpg" class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula10.jpg" class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula1.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula2.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula3.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula4.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula5.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula6.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula7.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula8.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula9.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula10.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
 </div>
 
 <!-- The expanding image container -->
@@ -34,7 +34,7 @@
     var expandImg = document.getElementById("expandedImg");
     var imgText = document.getElementById("imgtext");
     expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.name;
+    imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
   }
 </script>

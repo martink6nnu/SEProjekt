@@ -28,18 +28,18 @@ body {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: white;
+    color: black;
     font-size: 20px;
   }
   .container {
     position: relative;
     display: none;
   }
-  .closebtn #expandedimg{
-    position: relative;
+  .closebtn {
+    position: absolute;
     top: 10px;
     right: 15px;
-    color: white;
+    color: black;
     font-size: 35px;
     cursor: pointer;
   }
