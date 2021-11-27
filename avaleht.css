@@ -1,0 +1,48 @@
+.img{
+    max-width: fit-content;
+    max-height: fit-content;
+    display:block;
+}
+*{  background-color: beige;
+}
+
+#vasak{
+    width: 610px;
+    height: fit-content;
+    float: left;
+    
+    border-collapse: collapse;
+    opacity:80%;
+}
+#vasak:hover{
+    opacity:100%;
+
+}
+#keskmine{
+    width: 610px;
+    height: fit-content;
+    float: center;
+    border-collapse: collapse;
+    
+    opacity:80%;
+}
+#keskmine:hover{
+    opacity:100%
+}
+
+#parem{
+    width:610px;
+    height: fit-content;
+    
+    border-collapse: collapse;
+    opacity:80%;
+}
+#parem:hover{
+    opacity:100%;
+}
+.row{
+    display:flex;
+}
+.column{
+    padding:5px;
+}
