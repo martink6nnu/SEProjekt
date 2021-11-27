@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+  }
+.defpilt{
+    height:128px;
+    width:128px;
+    margin-left: 25px;
+    margin-right: 25px;   
+}
+
+  .row img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  img:hover {
+    opacity: 1;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  .container {
+    position: relative;
+    display: none;
+  }
+  .closebtn #expandedimg{
+    position: relative;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+#expandedImg{
+    max-width: 800px;
+    min-height: 600px;
+}
