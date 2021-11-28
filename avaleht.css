@@ -7,8 +7,8 @@
 }
 
 #vasak{
-    width: 610px;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     float: left;
     
     border-collapse: collapse;
@@ -19,11 +19,10 @@
 
 }
 #keskmine{
-    width: 610px;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     float: center;
     border-collapse: collapse;
-    
     opacity:80%;
 }
 #keskmine:hover{
@@ -31,8 +30,8 @@
 }
 
 #parem{
-    width:610px;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     
     border-collapse: collapse;
     opacity:80%;
@@ -45,4 +44,5 @@
 }
 .column{
     padding:5px;
+    width:33%;
 }
