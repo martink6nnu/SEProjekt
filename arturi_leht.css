@@ -70,3 +70,8 @@ body {
     display: block;
     width: 50%;
 }
+.tagasi {
+    max-width: 128px;
+    height: auto;
+    margin: 5px;
+}
