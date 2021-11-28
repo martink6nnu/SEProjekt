@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 <div class="row">
-    <img src="pildid/miaula1.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula1.jpg" alt="tegemist kassipildiga, millel on ka 6. klassi martin." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula2.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula3.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula4.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
@@ -13,22 +13,23 @@
     <img src="pildid/miaula6.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula7.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula8.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
-    <img src="pildid/miaula9.jpg" al    t="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
+    <img src="pildid/miaula9.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula10.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
 </div>
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
-  <!-- Expanded image -->
+<div class="container">
+  
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+  
   <img id="expandedImg" >
 
-  <!-- Image text -->
+  
   <div id="imgtext"></div>
-</div>
 
+</div>
+<a href="avaleht.html"><img src="pildid/tagasinupp.png" class="tagasinupp"></a>
 <script>
   function myFunction(imgs) {
     var expandImg = document.getElementById("expandedImg");
