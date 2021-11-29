@@ -3,7 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="vahelehed.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset='UTF-8'>
     <title>Miisu</title>
 
 </head>
@@ -38,20 +38,6 @@
     <a href='avaleht.html'><img src='pildid/tagasinupp.png' alt='Tagasi' class='tagasinupp'></a>
 </div>
 <!-- JS -->
-<script>
-<!-- JS -->
-function myFunction(imgs) {
-  // Võtab suurendatud pildi
-  var expandImg = document.getElementById("expandedImg_vertikaalne");
-  // Võtab pildi teksti
-  var imgText = document.getElementById("imgtext");
-  // Kasutab sama src, mis on klõpsatul pildil 
-  expandImg.src = imgs.src;
-  // Kasutab alt väärtust tekstina suurendatud pildile
-  imgText.innerHTML = imgs.alt;
-  // Näitab pilti 
-  expandImg.parentElement.style.display = "block";
-}
-</script>
+<script src='js/javascript_vertikaalne_pilt.js'></script>
 </body>
 </html>
