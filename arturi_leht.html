@@ -1,9 +1,9 @@
 ﻿<!DOCTYPE html>
-
-<html>
+<html lang='en'>
 <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="vahelehed.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset='UTF-8'>
     <title>Miisu</title>
 
 </head>
@@ -22,13 +22,13 @@
     <img src='pildid/miisu4.jpg' alt="Miisu" class='pilt' onclick="myFunction(this);">
 </div>
 
-<!-- Piltide galerii idee ja JavaScript pärineb: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
+<!-- Piltide galerii JavaScript pärineb: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
 <!-- Suurendatud pildi osa-->
 <div class="container">
   <!-- Pildi sulgemine -->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <!-- Suurendatud pilt -->
-  <img id="expandedImg_vertikaalne" alt='Suurendatud pilt' style="width:100%">
+  <img id="expandedImg_vertikaalne" src='pildid/Transparent.gif' alt='Suurendatud pilt' style="width:100%">
   <!-- Pildi tekst -->
   <div id="imgtext"></div>
 </div>
