@@ -2,7 +2,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="vahelehed.css"> <!-- linkib cssi-->
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Miaula</title>
   </head>
 <div class="row"> <!-- galeriis asuvate piltide tabel-->
     <img src="pildid/miaula1.jpg" alt="tegemist kassipildiga, millel on ka 6. klassi martin." class="defpilt" onclick="myFunction(this);">
@@ -22,15 +24,15 @@
   <!-- sulgemisnupp-->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   
-  <!-- suurendatud pilt-->
-  <img id="expandedImg" >
+  <!-- suurendatud pilt, transparent.gif selleks et validaator errorit ei viskaks puuduliku source'i pärast :)-->
+  <img id="expandedImg" src="pildid/Transparent.gif" alt="suurendatudpilt" >
 
   <!-- suurendatud pildi juurde käiv tekst-->
   <div id="imgtext"></div>
 
 </div>
 <!-- avalehele tagasi nupp-->
-<a href="avaleht.html"><img src="pildid/tagasinupp.png" class="tagasinupp"></a>
+<a href="avaleht.html"><img src="pildid/tagasinupp.png" class="tagasinupp" alt="tagasinupp"></a>
 <!-- Piltide galerii idee ja JavaScript pärineb: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
 <script src="js/javascript.js"></script>
 </html>
