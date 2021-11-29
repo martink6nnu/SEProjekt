@@ -55,3 +55,17 @@
     padding:5px;
     width:33%;
 }
+.slider{
+    position: absolute;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+@keyframes slider {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
