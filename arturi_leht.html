@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href="arturi_leht.css">
+    <link rel="stylesheet" href="vahelehed.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Miisu</title>
 
@@ -26,19 +26,19 @@
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
   <!-- Suurendatud pilt -->
-  <img id="expandedImg" alt='Suurendatud pilt' style="width:100%">
+  <img id="expandedImg_vertikaalne" alt='Suurendatud pilt' style="width:100%">
 
   <!-- Pildi tekst -->
   <div id="imgtext"></div>
 </div>
 <div>
-    <a href='avaleht.html'><img src='pildid/tagasinupp.png' alt='Tagasi' class='tagasi'></a>
+    <a href='avaleht.html'><img src='pildid/tagasinupp.png' alt='Tagasi' class='tagasinupp'></a>
 </div>
 <script>
 <!-- JS -->
 function myFunction(imgs) {
   <!-- Võtab suurendatud pilid-->
-  var expandImg = document.getElementById("expandedImg");
+  var expandImg = document.getElementById("expandedImg_vertikaalne");
   <!-- Võtab pildi teksti -->
   var imgText = document.getElementById("imgtext");
   <!-- Kasutab sama src, mis on klõpsatul pildil -->
