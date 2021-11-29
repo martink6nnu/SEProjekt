@@ -19,7 +19,7 @@ body {
     margin-left: 25px;
     margin-right: 25px;   
 }
-/* Style the images inside the grid */
+/* Pildigalerii */
   .row img {
     margin-top: 10px;
     opacity: 0.8; 
@@ -28,13 +28,13 @@ body {
   img:hover {
     opacity: 1;
   }
-  /* Clear floats after the columns */
+  /* Peale pildigaleriid */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  /* The expanding image container */
+  /* Suurendatud pildi osa */
   .container {
     position: relative;
     display: none;
@@ -46,7 +46,7 @@ body {
     color: black;
     font-size: 20px;
   }
-  /* Closable button inside the expanded image */
+  /* Suurendatud pildi sulgemise nupp */
   .closebtn {
     position: absolute;
     top: 10px;
@@ -55,6 +55,7 @@ body {
     font-size: 35px;
     cursor: pointer;
   }
+/* Suurendatud pildid */
 #expandedImg{
     max-width: 800px;
     max-height: 600px;
@@ -67,6 +68,7 @@ body {
     display: block;
     width: 50%;
 }
+/* Nupp, millega saab tagasi avalehele */
 .tagasinupp{
   max-width: 128px;
   max-height:auto;
