@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="vahelehed.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vahelehed.css"> <!-- linkib cssi-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
   </head>
-<div class="row">
+<div class="row"> <!-- galeriis asuvate piltide tabel-->
     <img src="pildid/miaula1.jpg" alt="tegemist kassipildiga, millel on ka 6. klassi martin." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula2.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
     <img src="pildid/miaula3.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
@@ -17,18 +17,20 @@
     <img src="pildid/miaula10.jpg" alt="tegemist kassipildiga." class="defpilt" onclick="myFunction(this);">
 </div>
 
-
+<!-- suurendatud pildi konteiner-->
 <div class="container">
-  
+  <!-- sulgemisnupp-->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   
-  
+  <!-- suurendatud pilt-->
   <img id="expandedImg" >
 
-  
+  <!-- suurendatud pildi juurde käiv tekst-->
   <div id="imgtext"></div>
 
 </div>
+<!-- avalehele tagasi nupp-->
 <a href="avaleht.html"><img src="pildid/tagasinupp.png" class="tagasinupp"></a>
+<!-- Piltide galerii idee ja JavaScript pärineb: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
 <script src="js/javascript.js"></script>
 </html>
